@@ -1,0 +1,33 @@
+.card-base,
+.card-contact {
+    img {
+        margin-right: 2.2rem;
+     
+    }  
+}
+    .card-contact-title {
+        @extend %card-contact-style;
+        padding-left: 1.5rem;
+    } 
+
+.card-base {
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem 4rem 2.5rem;
+    width: 48%;
+    height: 17rem;
+    border-radius: 2rem;
+
+    &:nth-child(1){
+        padding-left: 5rem; 
+    }
+}
+
+.card-contact {
+    background-color: map-get($colors-base, white);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+
+    img {
+         padding-left: 2rem;
+    }
+}

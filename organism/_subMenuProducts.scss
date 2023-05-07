@@ -1,0 +1,44 @@
+.header__subMenu {
+    @include padding-box(5rem, 2.5rem, 6rem, 2.5rem);
+    margin-top: 2rem;
+    margin: auto;
+    width: 95%;
+    height: 13.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background: map-get($colors-base, gray);
+    
+ path:hover {
+    fill: map-get($colors-branding, secondary);
+ }
+
+
+    button {
+        @extend %btn-subMenu;
+        padding-top: 1rem;
+        color: map-get($colors-base, light-gray);
+        background: map-get($colors-base, gray);
+
+        &:hover {
+            color: map-get($colors-branding, primary);           
+        }
+    }
+
+    #btnMenuCreditCard {
+        padding-top: 1.5rem;
+    }
+
+     /////  div Sub Menu de productos en Header 
+     .boxHidden {
+        display: none;
+      }
+}
+
+
+
+   
+
+  
+
+

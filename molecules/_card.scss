@@ -1,0 +1,63 @@
+   .card {
+    position: $position-relative;
+    width: 41rem;
+    height: 43.3rem;
+    }
+  
+    .card-img {
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }    
+        }
+
+  
+    // .card-blur {
+    //     &:hover {
+    //         background-color: pink;
+    //         position: $position-absolute;
+    //                     width: 100%;
+    //                     top: 0;
+    //                     left: 0;
+    //                     bottom: 0;
+    //                     left: 0;
+    //                     border-radius: 2rem;
+    //     }
+    // }
+         
+    //     .btn-card-product:hover {
+    //         .card-blur {
+    //             background-color: linear-gradient(180deg, rgba(188, 210, 254, 0.144) 7.2%, rgba(51, 102, 204, 0.6) 59.84%, rgba(51, 102, 204, 0.6) 89.62%);
+    //             position: $position-absolute;
+    //             width: 100%;
+    //             top: 0;
+    //             left: 0;
+    //             bottom: 0;
+    //             left: 0;
+    //             border-radius: 2rem;
+    //     }
+
+    // }
+
+    .card-text {
+        position: $position-absolute;
+        bottom:3rem;
+        left: 2.8rem;
+                    // top: 0;
+                    // left: 0;
+                    // bottom: 0;
+                    // left: 0;
+        font-size: map-get($font-sizes, h5);
+        font-weight: 600;
+        color: map-get($colors-base, white);
+
+        p {
+            font-size: map-get($font-sizes, p-16);
+            line-height: 1.9rem;
+            font-weight: 500;
+            margin: 1.5rem 0;
+        } 
+    }
+
+   

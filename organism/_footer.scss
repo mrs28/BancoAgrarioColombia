@@ -1,0 +1,66 @@
+.footer {
+    @include padding-box(5.8rem, 15rem, 7.2rem, 15rem);
+    background-color: map-get($colors-branding, primary);
+    color: map-get($colors-base, white);
+  
+
+    .footer__top {
+        justify-content: space-around;
+        padding-bottom: 5rem;
+        border-bottom: 2px solid map-get($colors-base, white);
+
+        h6 {
+            margin-bottom: 4rem;
+            font-size: map-get($font-sizes, h6);
+            font-weight: 700;
+          
+        }
+
+        p {
+            font-size: map-get($font-sizes, p-14);
+            font-weight: 400;
+        }
+
+        .box-info {
+            margin-right: 11rem;
+
+             ul {
+                padding-left: 0;
+    
+                li {
+                    margin-bottom: 2.5rem;
+                }
+             }
+        }
+    }
+
+    .footer__bottom {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 6.5rem;
+
+        img {
+            width: 90%;
+        }
+
+        .supervise {
+            & p:first-child {
+                margin-top:0.5rem;
+                padding-top: 0.2rem;
+                font-size: map-get($font-sizes, p-14);
+                border-top: 2px solid map-get($colors-base, white);
+                border-bottom: 2px solid map-get($colors-base, white);
+                letter-spacing: 0.6rem;
+                opacity: 0.8;          
+               }
+    
+            & p:nth-child(2) {
+                width: 35%;
+                text-align: center;
+                padding-left: 1rem;
+                flex-grow: 6;
+                font-size: map-get($font-sizes, p-12);
+            }
+        }     
+    }
+    }

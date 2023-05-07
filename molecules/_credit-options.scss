@@ -1,0 +1,14 @@
+.credit-options {
+    @include padding-box(4rem, 8rem, 0, 2rem);
+
+    .credit-options-text {
+        padding-left: 2rem;
+       
+        h6, a {
+            color: map-get($colors-branding, primary);
+            font-size: map-get($font-sizes, base);
+            font-weight: 700;
+        }
+    }
+
+    }

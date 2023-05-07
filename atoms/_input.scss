@@ -1,0 +1,11 @@
+.input-form  {
+    width: 90%;
+    height: 5rem;
+    padding: 0.5rem;
+    border: 1px solid #656565;
+    font-size: medium;
+    
+    &:focus {
+        outline: none;
+     }
+}

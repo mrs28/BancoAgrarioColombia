@@ -1,0 +1,58 @@
+$position-relative: relative;
+$position-absolute: absolute;
+$opacity: 0.8;
+$opacity-medium: 0.4;
+$opacity-default: 1.0;
+
+/* ===================
+COLORS
+=================== */
+$colors-branding: (
+    primary: #3366CC,
+    secondary: #5BC500,
+    third: #FFB500,
+    complementary: #5C4738,
+);
+
+$colors-base: (
+    white: #FFFFFF,
+    soft-gray: #F9F9F9,
+    dark-gray: #656565,
+    light-gray: #A6A6A6,
+    gray: #F1F1F1,
+  
+);
+
+/* ===================
+TYPOGRAPHY
+=================== */ 
+$font-primary:"Roboto", sans-serif;
+
+$font-sizes: (
+    global: '62.5%',
+    base: 1.6rem,
+    h1: 6.4rem,
+    h2: 6.4rem,
+    h3: 4.3rem,
+    h4: 3.4rem,
+    h5: 2.8rem,
+    h6: 2.0rem,
+    p-24: 2.4rem,
+    p-18: 1.8rem,
+    p-16: 1.6rem,
+    p-14: 1.4rem,
+    p-12: 1.2rem,
+);
+
+h1 {
+    font-size: map-get($font-sizes, h2);
+}
+
+/* BREAKPOINYS */
+$layout: (
+    base: 960px,
+    md: 820px,
+    sm: 620px,
+    xs: 420px,
+)
+

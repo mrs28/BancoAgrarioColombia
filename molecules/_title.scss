@@ -1,0 +1,10 @@
+   
+   .title-main {
+    @extend %box-title;
+   color: map-get($colors-branding, primary);
+   }
+
+   .title-center{
+      @extend %box-title;
+      color: map-get($colors-base, dark-gray);
+   }

@@ -1,0 +1,46 @@
+.benefits {
+    @include padding-box(12rem, 3.5rem, 13rem, 8rem);
+    background: linear-gradient(top #3366CC, white);
+  
+
+
+    
+    .benefits__img,
+    .benefits__text {
+        width: 50%;
+    }
+
+    .benefits__img {
+        figure {
+            flex-direction: initial;
+    
+            img {
+                border-radius: 50%;
+            }
+        } 
+    }
+   
+
+.benefits__text {
+    // @include padding-box(3rem, 11rem, 0, 6rem);
+
+    #btn-benefits, p {
+        margin-bottom: 4rem;
+    }
+
+    .benefits-transport {
+        justify-content: center;
+        align-items: center;
+        
+        figure {
+            margin-right: 2.5rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }     
+    }
+    }
+}
+
+

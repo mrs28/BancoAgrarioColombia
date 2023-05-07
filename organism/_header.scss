@@ -1,0 +1,20 @@
+.header {
+    color: map-get($colors-base, white );
+
+    .header__nav-top, 
+    .header__nav-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__nav-top {
+        padding: 1rem 6.4rem; 
+        background: linear-gradient(to right, #5BC500 7.2%, #5BC500 55.02%, #3366CC 94.1%);
+    }
+
+    .header__nav-bottom {
+        padding: 1.5rem 6.4rem;
+        color: map-get($colors-branding, primary );
+    }
+}

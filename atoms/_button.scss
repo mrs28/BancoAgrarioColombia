@@ -1,0 +1,78 @@
+.btn {
+    width: 19.1rem;
+    height: 3.9rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    color:  map-get($colors-base, white);
+    border: none;
+    cursor: pointer;
+}
+
+//  botón azul 
+.btn-primary {
+    background-color: map-get($colors-branding, primary);
+    font-size: map-get($font-sizes, base);
+}
+
+//  botón verde 
+.btn-secondary {
+    width: 22.5rem;
+    height: 4.6rem;
+    background-color: map-get($colors-branding, secondary);
+    font-size: map-get($font-sizes, h6);
+}
+
+//  botón blanco letras verdes 
+.btn-third {
+    width: 22.5rem;
+    height: 4.6rem;
+    background-color: map-get($colors-base, white);
+    color: map-get($colors-branding, secondary);
+    font-size: map-get($font-sizes, h6);
+}
+
+
+.btn-card-product {
+    border: 2px solid white;
+    background-color: transparent;
+  
+    &:hover {
+        background-color: map-get($colors-base, white);
+        color: map-get($colors-branding, primary);
+    }
+}
+
+// :hover {
+    
+//     background-color: pink;
+//     // background-color: linear-gradient(180deg, rgba(188, 210, 254, 0.144) 7.2%, rgba(51, 102, 204, 0.6) 59.84%, rgba(51, 102, 204, 0.6) 89.62%);
+//     position: $position-absolute;
+//     width: 100%;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     left: 0;
+//     border-radius: 2rem;
+// }
+    
+.div-wrap {
+
+    
+.div-op {
+    
+    width: 41rem;
+    height: 43rem;
+    background-color: yellow;
+    opacity: 0.5;
+    // display: none;
+  
+    &:hover {
+       background-color: pink;
+
+    }
+
+  }
+
+
+}

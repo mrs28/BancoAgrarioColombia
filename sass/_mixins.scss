@@ -1,0 +1,37 @@
+@mixin padding-box($padding-top, $padding-right, $padding-bottom, $padding-left) {
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+};
+
+@mixin size-title($type){
+    @if($type == h1){
+        font-size: $font-size-64;
+    }
+
+    @if($type == h2){
+        font-size: $font-size-64;
+    }
+
+    @if($type == h3){
+        font-size: $font-size-36;
+    }
+
+    @if($type == h4){
+        font-size: $font-size-23;
+    }
+
+    @if($type == h5){
+        font-size: $font-size-21;
+    }
+
+    @if($type == h6){
+        font-size: $font-size-18;
+    }
+
+    @if($type == p){
+        font-size: $font-size-14;
+    }
+
+    @if($type == a){
+        font-size: $font-size-14;
+    }
+}

@@ -1,0 +1,44 @@
+.nav {
+    ul {
+        display: flex;
+        padding: 0;
+        font-weight: bold; 
+    }
+}
+
+.nav-top {
+    ul {
+        li {
+            margin-left: 1.5rem;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+     
+.nav-bottom {
+    padding-top: 1.7rem;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 2rem;
+    #btnNavProducts {
+        @extend %btn-subMenu;
+        color: map-get($colors-branding, primary);
+    
+        & > span {
+            margin-left: 0.8rem;
+        }
+    }
+
+    ul {
+        li {
+            margin-left: 3rem;
+        }
+    }
+}
+   
+    
+
+

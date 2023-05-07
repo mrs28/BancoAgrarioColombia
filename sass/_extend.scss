@@ -1,0 +1,52 @@
+%title {
+    h1 {
+        font-size: map-get($font-sizes, h1);
+        color: map-get($colors-branding, primary);
+    }
+    margin-bottom: 3.4rem;
+    font-size: map-get($font-sizes, h5);
+}
+
+%box-title {
+    @extend %title;
+    text-align: center; 
+}
+
+%box-title-left {
+    @extend %title;
+    flex-direction: column;
+    flex-direction: initial;  
+}
+
+%card-base-style {
+    font-size: map-get($font-sizes, h4);
+    color: map-get($colors-branding,primary);
+    font-weight: 600;
+}
+
+%card-contact-style {
+    @extend %card-base-style;
+    & > a {
+        font-size: map-get($font-sizes, p-24);
+        color: map-get($colors-branding, secondary);
+    }
+}
+
+//  btn en _SubMmenúProducts 
+%btn-subMenu{
+    border: none;
+    font-size: map-get($font-sizes, base );
+    font-weight: 600;
+    background-color: map-get($colors-base, white) ;   
+    cursor: pointer;
+}
+
+// hover en botón de _cards
+%blur-card {
+    .card::before {
+        opacity: $opacity-medium;
+        background-color: red;
+        
+      }
+      
+}

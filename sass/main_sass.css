@@ -1,0 +1,477 @@
+/* ===================
+COLORS
+=================== */
+/* ===================
+TYPOGRAPHY
+=================== */
+h1 {
+  font-size: 6.4rem;
+}
+
+/* BREAKPOINYS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /*base 10*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #656565;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.txt-align {
+  text-align: center;
+}
+
+.margin-b-small {
+  margin-bottom: 1rem;
+}
+
+.margin-b-base {
+  margin-bottom: 2.5rem;
+}
+
+.title-left, .title-center, .title-main {
+  margin-bottom: 3.4rem;
+  font-size: 2.8rem;
+}
+.title-left h1, .title-center h1, .title-main h1 {
+  font-size: 6.4rem;
+  color: #3366CC;
+}
+
+.title-center, .title-main {
+  text-align: center;
+}
+
+.title-left {
+  flex-direction: column;
+  flex-direction: initial;
+}
+
+.contact-center .card-base h4, .card-contact-title {
+  font-size: 3.4rem;
+  color: #3366CC;
+  font-weight: 600;
+}
+
+.card-contact-title > a {
+  font-size: 2.4rem;
+  color: #5BC500;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  width: 19.1rem;
+  height: 3.9rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #3366CC;
+  font-size: 1.6rem;
+}
+
+.btn-secondary {
+  width: 22.5rem;
+  height: 4.6rem;
+  background-color: #5BC500;
+  font-size: 2rem;
+}
+
+.btn-third {
+  width: 22.5rem;
+  height: 4.6rem;
+  background-color: #FFFFFF;
+  color: #5BC500;
+  font-size: 2rem;
+}
+
+.btn-card-product {
+  border: 2px solid white;
+  background-color: transparent;
+}
+.btn-card-product:hover {
+  background-color: #FFFFFF;
+  color: #3366CC;
+}
+
+.div-wrap .div-op {
+  width: 41rem;
+  height: 43rem;
+  background-color: yellow;
+  opacity: 0.5;
+}
+.div-wrap .div-op:hover {
+  background-color: pink;
+}
+
+.input-form {
+  width: 90%;
+  height: 5rem;
+  padding: 0.5rem;
+  border: 1px solid #656565;
+  font-size: medium;
+}
+.input-form:focus {
+  outline: none;
+}
+
+.nav ul {
+  display: flex;
+  padding: 0;
+  font-weight: bold;
+}
+
+.nav-top ul li {
+  margin-left: 1.5rem;
+}
+.nav-top ul li:first-child {
+  margin-left: 0;
+}
+
+.nav-bottom {
+  display: flex;
+}
+.nav-bottom ul li {
+  margin-left: 3rem;
+}
+.nav-bottom #idNavButton {
+  background-color: pink;
+  font-size: 2rem;
+}
+
+.link-language {
+  display: flex;
+}
+.link-language li {
+  padding-right: 1rem;
+}
+.link-language li:first-child {
+  border-right: 2px solid white;
+}
+.link-language li:last-child {
+  padding-right: 0;
+  padding-left: 1rem;
+}
+
+.link-contact {
+  display: flex;
+}
+.link-contact li {
+  margin-right: 2.6rem;
+}
+.link-contact li:last-child {
+  margin-right: 0;
+}
+
+.card {
+  position: relative;
+  width: 41rem;
+  height: 43.3rem;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 3rem;
+  left: 2.8rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.card-text p {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+
+.card-base img,
+.card-contact img {
+  margin-right: 2.2rem;
+}
+
+.card-contact-title {
+  padding-left: 1.5rem;
+}
+
+.card-base {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem 4rem 2.5rem;
+  width: 48%;
+  height: 17rem;
+  border-radius: 2rem;
+}
+.card-base:nth-child(1) {
+  padding-left: 5rem;
+}
+
+.card-contact {
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.card-contact img {
+  padding-left: 2rem;
+}
+
+.title-main {
+  color: #3366CC;
+}
+
+.title-center {
+  color: #656565;
+}
+
+.credit-options {
+  padding: 4rem 8rem 0 2rem;
+}
+.credit-options .credit-options-text {
+  padding-left: 2rem;
+}
+.credit-options .credit-options-text h6, .credit-options .credit-options-text a {
+  color: #3366CC;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.header {
+  color: #FFFFFF;
+}
+.header .header__nav-top,
+.header .header__nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__nav-top {
+  padding: 1rem 6.4rem;
+  background: linear-gradient(to right, #5BC500 7.2%, #5BC500 55.02%, #3366CC 94.1%);
+}
+.header .header__nav-bottom {
+  padding: 1.5rem 6.4rem;
+  color: #3366CC;
+}
+
+.products {
+  padding: 2.5rem 4.5rem 17.3rem 4.5rem;
+}
+.products .products__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+.products .products__cards div:nth-child(4) {
+  margin-left: 20rem;
+}
+
+.benefits {
+  padding: 12rem 3.5rem 13rem 8rem;
+  background: linear-gradient(top #3366CC, white);
+}
+.benefits .benefits__img,
+.benefits .benefits__text {
+  width: 50%;
+}
+.benefits .benefits__img figure {
+  flex-direction: initial;
+}
+.benefits .benefits__img figure img {
+  border-radius: 50%;
+}
+.benefits .benefits__text #btn-benefits, .benefits .benefits__text p {
+  margin-bottom: 4rem;
+}
+.benefits .benefits__text .benefits-transport {
+  justify-content: center;
+  align-items: center;
+}
+.benefits .benefits__text .benefits-transport figure {
+  margin-right: 2.5rem;
+}
+.benefits .benefits__text .benefits-transport figure:last-child {
+  margin-right: 0;
+}
+
+.solutions {
+  padding: 13rem 0 13rem 11rem;
+}
+.solutions .solutions__text,
+.solutions .solutions__img {
+  width: 50%;
+}
+.solutions .solutions__text figure img,
+.solutions .solutions__img figure img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.solutions .solutions__text #btn-solutions,
+.solutions .solutions__img #btn-solutions {
+  border-bottom: 3px solid #FFB500;
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: #FFFFFF;
+  color: #3366CC;
+  border-radius: 0;
+  opacity: 0.4;
+}
+.solutions .solutions__text #btn-solutions:focus,
+.solutions .solutions__img #btn-solutions:focus {
+  opacity: 1;
+}
+
+.consultancy {
+  padding: 15rem 2.5rem 10rem 10rem;
+}
+.consultancy .consultancy__title {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.consultancy .consultancy__title > h5 {
+  font-size: 2.8rem;
+  color: #FFB500;
+  margin-bottom: 2rem;
+}
+.consultancy img {
+  border-radius: 60%;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.consultancy .consultancy__img,
+.consultancy .consultancy-form {
+  width: 50%;
+}
+.consultancy .consultancy__img {
+  padding-right: 8rem;
+  padding-top: 2rem;
+  margin: auto;
+}
+.consultancy .consultancy-form {
+  display: flex;
+  flex-direction: column;
+  padding: 9rem 0rem 5rem 1.5rem;
+}
+.consultancy .consultancy-form > p {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.consultancy .consultancy-form h3 {
+  font-size: 4.3rem;
+  color: #3366CC;
+}
+
+.contact-center .contact__center__bg {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.contact-center .contact__center__bg::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/images/campo\ 1.png);
+  opacity: 0.8;
+}
+.contact-center .contact__center__bg .cards-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+.contact-center h1 {
+  color: #3366CC;
+  margin-bottom: 3rem;
+}
+.footer {
+  padding: 5.8rem 15rem 7.2rem 15rem;
+  background-color: #3366CC;
+  color: #FFFFFF;
+}
+.footer .footer__top {
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid #FFFFFF;
+}
+.footer .footer__top h6 {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer .footer__top p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.footer .footer__top .box-info {
+  margin-right: 11rem;
+}
+.footer .footer__top .box-info ul {
+  padding-left: 0;
+}
+.footer .footer__top .box-info ul li {
+  margin-bottom: 2.5rem;
+}
+.footer .footer__bottom {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6.5rem;
+}
+.footer .footer__bottom img {
+  width: 90%;
+}
+.footer .footer__bottom .supervise p:first-child {
+  margin-top: 0.5rem;
+  padding-top: 0.2rem;
+  font-size: 1.4rem;
+  border-top: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  letter-spacing: 0.6rem;
+  opacity: 0.8;
+}
+.footer .footer__bottom .supervise p:nth-child(2) {
+  width: 35%;
+  text-align: center;
+  padding-left: 1rem;
+  flex-grow: 6;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=main_sass.css.map */

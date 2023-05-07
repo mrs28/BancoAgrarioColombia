@@ -1,0 +1,16 @@
+.link-language {
+    display: flex;
+
+    li {
+        padding-right: 1rem;
+
+       &:first-child {
+         border-right: 2px solid white;
+       }
+
+       &:last-child {
+         padding-right: 0;
+         padding-left: 1rem;
+       } 
+    }
+}

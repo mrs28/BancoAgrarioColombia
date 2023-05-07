@@ -1,0 +1,17 @@
+.products {
+    @include padding-box(2.5rem, 3.5rem, 17.3rem, 3.5rem);
+   
+    .products__cards {
+        padding-left: 1.5rem;
+        display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // height: 900px;
+        flex-wrap: wrap;
+        gap: 1.4rem;  
+}
+
+.products__cards div:nth-child(4) {
+  margin-left:17% ;
+}
+}

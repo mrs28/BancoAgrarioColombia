@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }  
+
+html {
+  font-size: 62.5%; /*base 10*/
+} 
+body {
+    font-family: $font-primary;
+    font-size:  map-get($font-sizes, base);
+    color: map-get($colors-base, dark-gray);
+    // font-weight: $font-weight;
+    // color: $color-text;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+// .wrapper {
+//   max-width: 1204px;
+// }

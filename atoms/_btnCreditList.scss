@@ -1,0 +1,6 @@
+.btnCreditList {
+    background-color: map-get($colors-base, soft-gray);
+    border: 1px solid map-get($colors-branding, secondary);
+    color:  map-get($colors-branding, secondary);
+    margin-top: 2.3rem;
+}
