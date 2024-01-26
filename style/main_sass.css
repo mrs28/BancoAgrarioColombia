@@ -22,6 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   color: #656565;
+  background-color: azure;
 }
 
 a {
@@ -49,16 +50,21 @@ ul {
   margin-bottom: 2.5rem;
 }
 
-.title-left, .title-center, .title-main {
+.title-left,
+.title-center,
+.title-main {
   margin-bottom: 3.4rem;
   font-size: 2.8rem;
 }
-.title-left h1, .title-center h1, .title-main h1 {
+.title-left h1,
+.title-center h1,
+.title-main h1 {
   font-size: 6.4rem;
-  color: #3366CC;
+  color: #3366cc;
 }
 
-.title-center, .title-main {
+.title-center,
+.title-main {
   text-align: center;
 }
 
@@ -67,23 +73,25 @@ ul {
   flex-direction: initial;
 }
 
-.contact-center .card-base h4, .card-contact-title {
+.contact-center .card-base h4,
+.card-contact-title {
   font-size: 3.4rem;
-  color: #3366CC;
+  color: #3366cc;
   font-weight: 600;
 }
 
 .card-contact-title > a {
   font-size: 2.4rem;
-  color: #5BC500;
+  color: #5bc500;
 }
 
-.nav-bottom__subMenu button .btnSubMenu, .nav-bottom #idNavButton .btnSubMenu {
+.nav-bottom__subMenu button .btnSubMenu,
+.nav-bottom #idNavButton .btnSubMenu {
   border: none;
   font-size: 1.6rem;
   font-weight: 600;
-  color: #3366CC;
-  background-color: #FFFFFF;
+  color: #3366cc;
+  background-color: #ffffff;
 }
 
 .wrapper {
@@ -97,27 +105,27 @@ ul {
   padding: 1rem;
   border-radius: 2rem;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
 }
 
 .btn-primary {
-  background-color: #3366CC;
+  background-color: #3366cc;
   font-size: 1.6rem;
 }
 
 .btn-secondary {
   width: 22.5rem;
   height: 4.6rem;
-  background-color: #5BC500;
+  background-color: #5bc500;
   font-size: 2rem;
 }
 
 .btn-third {
   width: 22.5rem;
   height: 4.6rem;
-  background-color: #FFFFFF;
-  color: #5BC500;
+  background-color: #ffffff;
+  color: #5bc500;
   font-size: 2rem;
 }
 
@@ -126,8 +134,8 @@ ul {
   background-color: transparent;
 }
 .btn-card-product:hover {
-  background-color: #FFFFFF;
-  color: #3366CC;
+  background-color: #ffffff;
+  color: #3366cc;
 }
 
 .div-wrap .div-op {
@@ -216,7 +224,7 @@ ul {
   left: 2.8rem;
   font-size: 2.8rem;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .card-text p {
   font-size: 1.6rem;
@@ -247,7 +255,7 @@ ul {
 }
 
 .card-contact {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
 }
 .card-contact img {
@@ -255,7 +263,7 @@ ul {
 }
 
 .title-main {
-  color: #3366CC;
+  color: #3366cc;
 }
 
 .title-center {
@@ -268,14 +276,15 @@ ul {
 .credit-options .credit-options-text {
   padding-left: 2rem;
 }
-.credit-options .credit-options-text h6, .credit-options .credit-options-text a {
-  color: #3366CC;
+.credit-options .credit-options-text h6,
+.credit-options .credit-options-text a {
+  color: #3366cc;
   font-size: 1.6rem;
   font-weight: 700;
 }
 
 .header {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header .header__nav-top,
 .header .header__nav-bottom {
@@ -285,11 +294,16 @@ ul {
 }
 .header .header__nav-top {
   padding: 1rem 6.4rem;
-  background: linear-gradient(to right, #5BC500 7.2%, #5BC500 55.02%, #3366CC 94.1%);
+  background: linear-gradient(
+    to right,
+    #5bc500 7.2%,
+    #5bc500 55.02%,
+    #3366cc 94.1%
+  );
 }
 .header .header__nav-bottom {
   padding: 1.5rem 6.4rem;
-  color: #3366CC;
+  color: #3366cc;
 }
 
 .products {
@@ -306,7 +320,7 @@ ul {
 
 .benefits {
   padding: 12rem 3.5rem 13rem 8rem;
-  background: linear-gradient(top #3366CC, white);
+  background: linear-gradient(top #3366cc, white);
 }
 .benefits .benefits__img,
 .benefits .benefits__text {
@@ -318,7 +332,8 @@ ul {
 .benefits .benefits__img figure img {
   border-radius: 50%;
 }
-.benefits .benefits__text #btn-benefits, .benefits .benefits__text p {
+.benefits .benefits__text #btn-benefits,
+.benefits .benefits__text p {
   margin-bottom: 4rem;
 }
 .benefits .benefits__text .benefits-transport {
@@ -347,11 +362,11 @@ ul {
 }
 .solutions .solutions__text #btn-solutions,
 .solutions .solutions__img #btn-solutions {
-  border-bottom: 3px solid #FFB500;
+  border-bottom: 3px solid #ffb500;
   font-weight: 700;
   font-size: 2rem;
-  background-color: #FFFFFF;
-  color: #3366CC;
+  background-color: #ffffff;
+  color: #3366cc;
   border-radius: 0;
   opacity: 0.4;
 }
@@ -370,7 +385,7 @@ ul {
 }
 .consultancy .consultancy__title > h5 {
   font-size: 2.8rem;
-  color: #FFB500;
+  color: #ffb500;
   margin-bottom: 2rem;
 }
 .consultancy img {
@@ -399,7 +414,7 @@ ul {
 }
 .consultancy .consultancy-form h3 {
   font-size: 4.3rem;
-  color: #3366CC;
+  color: #3366cc;
 }
 
 .contact-center .contact__center__bg {
@@ -425,18 +440,18 @@ ul {
   position: relative;
 }
 .contact-center h1 {
-  color: #3366CC;
+  color: #3366cc;
   margin-bottom: 3rem;
 }
 .footer {
   padding: 5.8rem 15rem 7.2rem 15rem;
-  background-color: #3366CC;
-  color: #FFFFFF;
+  background-color: #3366cc;
+  color: #ffffff;
 }
 .footer .footer__top {
   justify-content: space-around;
   padding-bottom: 5rem;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid #ffffff;
 }
 .footer .footer__top h6 {
   margin-bottom: 4rem;
@@ -468,8 +483,8 @@ ul {
   margin-top: 0.5rem;
   padding-top: 0.2rem;
   font-size: 1.4rem;
-  border-top: 2px solid #FFFFFF;
-  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
   letter-spacing: 0.6rem;
   opacity: 0.8;
 }
