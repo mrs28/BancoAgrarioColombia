@@ -72,28 +72,28 @@ listSubMenuCredit.appendChild(btnCredit);
 // ***OBJETOS
     let personals = [  
         {   link: "Crédito semilla emprendedora",
-            url:"https://newportalbacprod.azurewebsites.net/personas/productor-agropecuario/credito-para-siembra"
+            url:"https://github.com/mrs28"
         },
         {   link: "CrediAgri al instante",
-            url: "https://developer.mozilla.org/es/"
+            url: "https://github.com/mrs28"
         },
         {   link: "Crédito para jóvenes rurales",
-            url: "https://www.bancoagrario.gov.co/personas/productor-agropecuario/credito-adecuacion-tierras"
+            url: "https://github.com/mrs28"
         },
         {   link: "Crédito verde",
-            url: "https://www.bancoagrario.gov.co/personas/productor-agropecuario/credito-verdes"
+            url: "https://github.com/mrs28"
         },
         {   link: "Cañafacil",
-            url: "https://www.bancoagrario.gov.co/personas/productor-agropecuario/cana-facil"
+            url: "https://github.com/mrs28"
         },
         {   link: "Cupo rotativo agropecuario",
-            url: "https://www.bancoagrario.gov.co/personas/productor-agropecuario/cupo-rotativo-agropecuario"
+            url: "https://github.com/mrs28"
         },
         {   link: "Finagro",
-            url: "https://www.bancoagrario.gov.co/financiacion/finagro"
+            url: "https://github.com/mrs28"
          },
          {  link: "Crédito para mujeres rurales",
-            url: "https://www.bancoagrario.gov.co/personas/productor-agropecuario/credito-mujeres-rurales"
+            url: "https://github.com/mrs28"
          },
     ]
 
